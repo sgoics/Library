@@ -209,7 +209,7 @@ const toggleRead = (e) => {
         toggleBookIsReadDB(book)
     } else {
         book.isRead = !book.isRead
-        laveLocal()
+        saveLocal()
         updateBooksGrid
     }
 }
