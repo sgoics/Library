@@ -151,7 +151,7 @@ const createBookCard = (book) => {
     buttonGroup.appendChild (readBtn)
     buttonGroup.appendChild (removeBtn)
     bookCard.appendChild    (buttonGroup)
-    booksGrid.appendChild   (bookcard)
+    booksGrid.appendChild   (bookCard)
 }
 
 const getBookFromInput = () => {
